@@ -56,7 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
-    <Compile Include="Assets\FirstPersion AIO Pack\FirstPersonAIO\FirstPersonAIO.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\KeyRaycastDoor\KeyItemController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\ButtonRaycastDoor\ButtonDoorRaycast.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FirstPersonController.cs" />
@@ -64,6 +63,7 @@
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\BasicRaycast\BasicDoorController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\Trigger\TriggerDoorController.cs" />
+    <Compile Include="Assets\FirstPersion AIO Pack\FirstPersonAIO\FirstPersonAIO.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\SimpleMouseRotator.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\CurveControlledBob.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\Joystick.cs" />
@@ -85,6 +85,7 @@
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\ButtonRaycastDoor\ButtonDoorController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FOVKick.cs" />
+    <Compile Include="Assets\Scripts\DoorOpen.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FirstPersion AIO Pack\DemoScene\Working Materials\GlassBumpedDistort.shader" />
