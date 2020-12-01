@@ -57,16 +57,20 @@
   <ItemGroup>
     <Compile Include="Assets\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\KeyRaycastDoor\KeyItemController.cs" />
+    <Compile Include="Assets\Scripts\StalkerAI.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\ButtonRaycastDoor\ButtonDoorRaycast.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\BasicRaycast\BasicDoorController.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\Trigger\TriggerDoorController.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
     <Compile Include="Assets\FirstPersion AIO Pack\FirstPersonAIO\FirstPersonAIO.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\SimpleMouseRotator.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\CurveControlledBob.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\KeyRaycastDoor\KeyDoorController.cs" />
@@ -75,29 +79,26 @@
     <Compile Include="Assets\Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Script\FireLightScript.cs" />
+    <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\KeyRaycastDoor\KeyDoorRaycast.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\BasicRaycast\BasicDoorRaycast.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\LerpControlledBob.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\KeyRaycastDoor\KeyDoorInventory.cs" />
+    <Compile Include="Assets\Scripts\DialogueOnClick.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\PyroParticles\Demo\DemoScriptEditor.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
+    <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\ButtonRaycastDoor\ButtonDoorController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FOVKick.cs" />
-    <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
-    <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
-    <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
-    <Compile Include="Assets\PyroParticles\Prefab\Script\FireLightScript.cs" />
-    <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
-    <Compile Include="Assets\PyroParticles\Demo\DemoScriptEditor.cs" />
-    <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
-    <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
-    <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
     <Compile Include="Assets\3DTOYS\rotatecamera.cs" />
-    <Compile Include="Assets\Scripts\DialogueOnClick.cs" />
-    <Compile Include="Assets\Scripts\StalkerAI.cs" />
+    <Compile Include="Assets\Scripts\Sequences\OpeningSceneA.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Bed &amp; Bath Furniture Pack\Documentation.txt" />
@@ -648,6 +649,15 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -663,23 +673,14 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
