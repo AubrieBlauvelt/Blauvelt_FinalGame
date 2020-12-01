@@ -97,6 +97,7 @@
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
     <Compile Include="Assets\3DTOYS\rotatecamera.cs" />
     <Compile Include="Assets\Scripts\DialogueOnClick.cs" />
+    <Compile Include="Assets\Scripts\StalkerAI.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Bed &amp; Bath Furniture Pack\Documentation.txt" />
