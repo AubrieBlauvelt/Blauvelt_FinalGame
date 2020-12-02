@@ -99,6 +99,7 @@
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FOVKick.cs" />
     <Compile Include="Assets\3DTOYS\rotatecamera.cs" />
     <Compile Include="Assets\Scripts\Sequences\OpeningSceneA.cs" />
+    <Compile Include="Assets\Scripts\FlyingJump.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Bed &amp; Bath Furniture Pack\Documentation.txt" />
