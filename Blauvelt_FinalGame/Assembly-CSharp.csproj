@@ -59,9 +59,11 @@
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\KeyRaycastDoor\KeyItemController.cs" />
     <Compile Include="Assets\Scripts\StalkerAI.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\ButtonRaycastDoor\ButtonDoorRaycast.cs" />
+    <Compile Include="Assets\Scripts\Sequences\OpeningSceneA.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Scripts\FlyingJump.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\BasicRaycast\BasicDoorController.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\Trigger\TriggerDoorController.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\Joystick.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Scripts\KeyRaycastDoor\KeyDoorController.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\ButtonHandler.cs" />
@@ -98,9 +101,7 @@
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FOVKick.cs" />
     <Compile Include="Assets\3DTOYS\rotatecamera.cs" />
-    <Compile Include="Assets\Scripts\Sequences\OpeningSceneA.cs" />
-    <Compile Include="Assets\Scripts\FlyingJump.cs" />
-    <Compile Include="Assets\Scripts\PickUp.cs" />
+    <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Bed &amp; Bath Furniture Pack\Documentation.txt" />
