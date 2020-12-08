@@ -58,6 +58,9 @@
     <Compile Include="Assets\PyroParticles\Prefab\Editor\PyroParticlesEditor.cs" />
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Editor\TonemappingColorGradingEditor.cs" />
+    <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Editor\DepthOfFieldEditor.cs" />
+    <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Editor\ScreenSpaceReflectionEditor.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
