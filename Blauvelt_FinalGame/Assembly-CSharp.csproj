@@ -146,7 +146,7 @@
     <Compile Include="Assets\Door Interaction Examples - FREE\Additional Packs\FPSController_Package\FPSC\Scripts\FOVKick.cs" />
     <Compile Include="Assets\3DTOYS\rotatecamera.cs" />
     <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
-    <Compile Include="Assets\Rusty Flashlight\Scripts\FlashlightToggle.cs" />
+    <Compile Include="Assets\Scripts\TriggerSFX.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -176,7 +176,6 @@
      <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
      <None Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.cginc" />
      <None Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
-     <None Include="Assets\Rusty Flashlight\README.txt" />
      <None Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Table and chair\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
