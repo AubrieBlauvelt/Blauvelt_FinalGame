@@ -7,6 +7,7 @@ public class TriggerZone : MonoBehaviour
 {
     public Text MyText;
     private int score;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +23,14 @@ public class TriggerZone : MonoBehaviour
 
     void OnTriggerEnter(Collider coll)
     {
-        if (coll.CompareTag ("Pickup"))
+          if(coll.CompareTag ("PickUp"))
         {
             score = score + 1;
+        }
+
+          if(coll.CompareTag ("PickUp"))
+        {
+            Destroy(coll.gameObject);
         }
     }
 }
