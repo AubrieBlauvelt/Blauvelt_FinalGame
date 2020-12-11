@@ -7,12 +7,13 @@ public class TriggerZone : MonoBehaviour
 {
     public Text MyText;
     private int score;
-  
+    public GameObject winTextObject;
 
     // Start is called before the first frame update
     void Start()
     {
         MyText.text = "";
+        winTextObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -26,6 +27,11 @@ public class TriggerZone : MonoBehaviour
           if(coll.CompareTag ("PickUp"))
         {
             score = score + 1;
+
+            if(score >=4)
+            {
+                winTextObject.SetActive(true);
+            }
         }
 
           if(coll.CompareTag ("PickUp"))
