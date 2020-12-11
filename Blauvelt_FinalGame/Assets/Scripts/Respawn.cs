@@ -11,8 +11,7 @@ public class Respawn : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            player.transform.position = respawnPoint.transform.position;
-            Physics.SyncTransforms();
+            Application.LoadLevel(Application.loadedLevel);
         }
     }
 }
